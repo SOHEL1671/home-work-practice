@@ -1,0 +1,61 @@
+/* common css start */
+*{
+    outline: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(48, 219, 241);
+    margin: 20px 0;
+    width: 100%;
+    height: 150px;
+}
+.row .a,.b,.c {
+    color:white;
+    background-color:lime;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.row .a:hover,.b:hover,.c:hover{
+    background-color:rgb(244, 10, 190);
+    transition: .5s;
+}
+/* common css end */
+.inner-container1 .row{
+    justify-content:start;
+    align-items:flex-start;
+    box-shadow: 4px 4px 4px 4px rgb(204, 206, 209);
+}
+.inner-container2 .row{
+    justify-content:end;
+    align-items:flex-end;
+    box-shadow: 4px 4px 4px 4px rgb(204, 206, 209);
+}
+.inner-container3 .row{
+    justify-content:center;
+    align-items:center;
+    box-shadow: 4px 4px 4px 4px rgb(204, 206, 209);
+}
+.inner-container4 .row{
+    justify-content:space-between;
+    align-items: stretch;
+    box-shadow: 4px 4px 4px 4px rgb(204, 206, 209);
+}
+.inner-container5 .row{
+    justify-content: space-around;
+    align-items: baseline;
+    box-shadow: 4px 4px 4px 4px rgb(204, 206, 209);
+}
+.inner-container6 .row{
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 4px 4px rgb(204, 206, 209);
+}
